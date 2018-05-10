@@ -1,7 +1,7 @@
 #!/bin/bash
  
  echo "start clone"
- git clone   xxx.git https://github.com/xiangxingchen/react-admin.git ./work
+ git clone https://github.com/xiangxingchen/react-admin.git ./work
  echo "clone end"
 # WEB_PATH='/var/www/dev.lovelucy.info'
 # WEB_USER='lovelucydev'
