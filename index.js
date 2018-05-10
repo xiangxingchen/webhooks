@@ -31,7 +31,7 @@ handler.on('push', function (event) {
   run_cmd('sh', ['./deploy.sh'], function(text){ console.log(text) });
 })
  
-/*
+
 handler.on('issues', function (event) {
   console.log('Received an issue event for % action=%s: #%d %s',
     event.payload.repository.name,
@@ -39,4 +39,3 @@ handler.on('issues', function (event) {
     event.payload.issue.number,
     event.payload.issue.title)
 })
-*/
